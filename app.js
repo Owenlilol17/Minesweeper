@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function gameOver(square) {
-        result.innerHTML = 'Ur actually trash lol';
+        result.innerHTML = 'Ichi is actually bad lol';
         isGameOver = true;
 
         squares.forEach(square => {
