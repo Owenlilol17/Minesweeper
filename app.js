@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 matches++;
             }
             if (matches === bombAmount) {
-                result.innerHTML = 'You win this time';
+                result.innerHTML = 'You win this time, but ur still bad';
                 isGameOver = true;
             }
         }
